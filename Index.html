@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Web FPS Shooter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="hud">
+      <div id="weapon-name">Weapon: Pistol</div>
+      <div id="weapon-stats">Rate: 0.25s · Damage: 1 · Bullets: 1</div>
+      <div id="score">Score: 0</div>
+    </div>
+    <div id="controls">
+      <button id="shoot-button">Shoot</button>
+      <button id="switch-button">Next Weapon</button>
+      <button id="reset-button">Reset</button>
+    </div>
+    <div id="instructions">Drag to look • Tap shoot • Works on iPad</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
